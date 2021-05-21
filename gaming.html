@@ -1,0 +1,91 @@
+<html>
+<head>
+<style>
+body,html{
+height : 100%;
+}
+
+.hero-image {
+background-image:url(videogame-bg-1.jpg);
+height: 25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+font-family: Copperplate, Fantasy;
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: black;
+font-size:100px
+}
+
+.newsimg{
+height: 30%;
+width:30%;
+background-size:100% 100%;
+background-repeat: no-repeat;
+position: relative;
+transition: 0.5s ease;
+backface-visibility: hidden;
+}
+
+.newstxt{
+position:absolute;
+color: black;
+font-size:18px;
+text-align:justify;
+width:45%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+
+.newsimg:hover{
+transform:scale(1.2);
+}
+
+.newsimg:hover .overlay {
+  opacity: 1;
+}
+
+
+</style>
+</head>
+<body>
+<div class="hero-image"></div><div class="hero-text">GAMER TAG</div>
+
+<div class="newsimg" style="top:10%;left:10%;background-image:url('days_gone.jpg');">
+<div class="overlay">
+Join the Community<br><a href="https://www.reddit.com/r/DaysGone/">
+<img src="redditt.png" alt="reddit" height="60px" width="60px" ></a><br>Buy Now<br>
+<a href="https://store.steampowered.com/agecheck/app/1259420/"><img src="steam.png" alt="steam" height="60px" width="60px" ></a></div>
+</div><div class="newstxt" style="top:32%;left:44%;"><h1>DAYS GONE COMING TO PC THIS MAY</h1></div>
+<div class="newstxt" style="top:46%; left:44%"> Now that Days Gone is coming to PC, more players will be able to experience the epic journey of Deacon St. John, a former outlaw biker who is now a drifter and bounty hunter trying to survive in a post-apocalyptic open world where danger is almost everywhere. The PC version of Days Gone will feature 21:9 ultra-wide monitor support, unlocked framerates and improved graphics (increased level of details, field of view, foliage draw distances).
+</div>
+
+<div class="newsimg" style="top:15%;left:60%;background-image:url('ratchet.jpg');">
+<div class="overlay">
+Join the Community<br><a href="https://www.reddit.com/r/RatchetAndClank/">
+<img src="redditt.png" alt="reddit" height="60px" width="60px" ></a><br>Buy Now<br>
+<a href="https://store.steampowered.com/search/?term=ratchet+and+clank"><img src="steam.png" alt="steam" height="60px" width="60px" ></a></div>
+</div>
+<div class="newstxt" style="top:68%;left:11%;text-align:left"><h1>RATCHET AND CLANK:RIFT APART TRAILER HIGHLIGHTS PLANETARY EXPLORATION</h1></div>
+<div class="newstxt" style="top:87%; left:11%">A new Ratchet and Clank: Rift Apart trailer showcases the game's extensive exploration aspect.You can check out the new "Planets and Exploration" trailer for Ratchet and Clank: Rift Apart, which debuted on May 20. Throughout the trailer, we can see a showcase of the various worlds we'll be visiting next month in June, including the cityscape of Nefarious City, and the overgrown plant wildlife of Sargasso.
+</div>
+</body>
+</html>
